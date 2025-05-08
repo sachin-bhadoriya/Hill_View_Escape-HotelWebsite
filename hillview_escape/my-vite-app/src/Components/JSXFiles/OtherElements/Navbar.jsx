@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "../CSSFile/Navbar.css";
+import "../../CSSFile/Navbar.css";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
-import image1 from '../../../assets/Images/inside/outside1.jpg'
-import '../../CSSFile/HomeCSS/Hometop.css'
+import image1 from '../../../../assets/Images/inside/outside1.jpg'
+import '../../../CSSFile/HomeCSS/Hometop.css'
 
 const Hometop = () => {
   const style = {
