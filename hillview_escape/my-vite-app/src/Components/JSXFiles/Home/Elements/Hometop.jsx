@@ -21,9 +21,13 @@ const Hometop = () => {
           <h3 className='home_top_heading_size'>HOTELS</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, maiores.</p>
         </div>
-        <div>
-          
+        <div className="home_top_btn">
+          <button>BOOK NOW</button>
         </div>
+      </div>
+      {/* there are some classes which define already in index.css mostly are bootstrap like classes */}
+      <div>
+        <p className='text-center home_bottom_text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, maiores.</p>
       </div>
     </>
   )

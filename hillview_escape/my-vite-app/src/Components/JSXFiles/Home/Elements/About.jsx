@@ -1,8 +1,13 @@
 import React from 'react'
+import '../../../CSSFile/HomeCSS/About.css'
+
+
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      about
+    </>
   )
 }
 

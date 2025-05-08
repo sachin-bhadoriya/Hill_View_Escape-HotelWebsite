@@ -1,8 +1,11 @@
 import React from 'react'
+import Facilitiestop from './Elements/Facilitiestop'
 
 const Facilities = () => {
   return (
-    <div>Facilities</div>
+    <>
+      <Facilitiestop />
+    </>
   )
 }
 

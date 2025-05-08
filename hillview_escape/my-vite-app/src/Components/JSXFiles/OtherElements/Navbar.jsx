@@ -24,10 +24,10 @@ const Navbar = () => {
                     <Link className={location.pathname === '/Facilities' ? 'link-active' : 'link-deactive'} to="/Facilities">Facilities</Link>
                 </li>
                 <li>
-                    Rooms
+                    <Link className={location.pathname === '/Rooms' ? 'link-active' : 'link-deactive'} to="/Rooms">Rooms</Link>
                 </li>
                 <li>
-                    Contact
+                    <Link className={location.pathname === '/Contact' ? 'link-active' : 'link-deactive'} to="/Contact">Contact</Link>
                 </li>
             </ul>
         </>

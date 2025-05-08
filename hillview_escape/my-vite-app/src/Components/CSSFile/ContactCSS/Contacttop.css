@@ -1,28 +1,29 @@
-.home_top_elements{
+.Contact_top_elements{
     position: relative;
     color: rgba(26, 25, 25, 0.1);
 }
 
-.home_top_content {
+.Contact_top_content {
     color: white;
     position: absolute;
     top: 30%;
     left: 10%;
 }
-.home_top_heading_size:nth-child(2),
-.home_top_heading_size:nth-child(3) {
+.Contact_top_heading_size:nth-child(2),
+.Contact_top_heading_size:nth-child(3) {
   font-size: 10vh;
 }
-.home_top_heading_size:nth-child(2){
+.Contact_top_heading_size:nth-child(2){
     color: #FFD700;
 }
-.home_top_btn{
+.Contact_top_btn{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 80%;
 }
-.home_top_btn button {
+.Contact_top_btn button {
+    padding: 10px 15px;
     border-radius: 7px;
     outline: none;
     border: none;
@@ -30,6 +31,6 @@
     color: black;
     font-weight: 600;
 }
-.home_bottom_text{
+.Contact_bottom_text{
     padding: 20px;
 }
