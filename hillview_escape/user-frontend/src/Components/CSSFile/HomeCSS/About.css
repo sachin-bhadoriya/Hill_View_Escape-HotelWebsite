@@ -1,0 +1,23 @@
+.about_container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 3px solid black;
+}
+.about_container h2{
+    margin-bottom: 10px;
+}
+.about_container h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #f6dc49;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+.about_container h2:hover::after {
+    transform: scaleX(1);
+}

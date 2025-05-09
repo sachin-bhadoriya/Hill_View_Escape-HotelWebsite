@@ -30,6 +30,12 @@
     background-color: #FFD700;
     color: black;
     font-weight: 600;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+.Room_top_btn button:hover {
+    background-color: #d3b50b;
+    color: white;
 }
 .Room_bottom_text{
     padding: 20px;
