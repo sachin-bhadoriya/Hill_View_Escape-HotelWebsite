@@ -14,19 +14,19 @@ const Hometop = () => {
 
   return (
     <>
-      <div className="home_top_elements" style={style}>
+      <div data-aos="fade-up" className="home_top_elements" style={style}>
         <div className="home_top_content">
-          <h3 className='home_top_heading_size'>WELCOME TO</h3>
-          <h1 className='home_top_heading_size'>HILLVIEW ESCAPE</h1>
-          <h3 className='home_top_heading_size'>HOTELS</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, maiores.</p>
+          <h3  data-aos="slide-right" className='home_top_heading_size'>WELCOME TO</h3>
+          <h1  data-aos="slide-right" className='home_top_heading_size'>HILLVIEW ESCAPE</h1>
+          <h3  data-aos="slide-right" className='home_top_heading_size'>HOTELS</h3>
+          <p  data-aos="slide-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, maiores.</p>
         </div>
         <div className="home_top_btn">
           <button>BOOK NOW</button>
         </div>
       </div>
       {/* there are some classes which define already in index.css mostly are bootstrap like classes */}
-      <div>
+      <div data-aos="fade-up">
         <p className='text-center home_bottom_text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, maiores.</p>
       </div>
     </>

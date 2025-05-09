@@ -36,4 +36,17 @@
   .room_type_image_container:hover img {
     transform: scale(1.2);
   }
+
+  
+/* Mobile Devices (max width 767px) */
+@media screen and (max-width: 767px) {
+  .txt_room_type{
+    margin: 30px 5px 20px;
+  }
+}
+
+/* Tablet Devices (768px to 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+}
   

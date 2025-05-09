@@ -13,12 +13,12 @@ const Facilitiestop = () => {
 
   return (
     <>
-      <div className="Facilities_top_elements" style={style}>
+      <div  data-aos="fade-up" className="Facilities_top_elements" style={style}>
         <div className="Facilities_top_content">
-          <h3 className='Facilities_top_heading_size'>WELCOME TO</h3>
-          <h1 className='Facilities_top_heading_size'>HILLVIEW ESCAPE</h1>
-          <h3 className='Facilities_top_heading_size'>HOTELS</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, maiores.</p>
+          <h3  data-aos="slide-right" className='Facilities_top_heading_size'>WELCOME TO</h3>
+          <h1  data-aos="slide-right" className='Facilities_top_heading_size'>HILLVIEW ESCAPE</h1>
+          <h3  data-aos="slide-right" className='Facilities_top_heading_size'>HOTELS</h3>
+          <p  data-aos="slide-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, maiores.</p>
         </div>
         <div className="Facilities_top_btn">
           <button>BOOK NOW</button>

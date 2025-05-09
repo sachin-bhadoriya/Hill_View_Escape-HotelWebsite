@@ -7,7 +7,7 @@ import '../../../CSSFile/HomeCSS/Roomtype.css'
 const Roomtype = () => {
   return (
     <>
-      <div className="container">
+      <div data-aos="fade-up" className="container">
         <div className="row">
           <div className="col-6 d-flex">
             <div className="txt_room_type">
@@ -19,7 +19,7 @@ const Roomtype = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div data-aos="fade-up" className="container">
         <div className="row">
           <div className="col-6 d-flex">
             <div className="txt_room_type">

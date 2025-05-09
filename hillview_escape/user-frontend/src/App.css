@@ -2,3 +2,6 @@
 .home_top_btn button{
     padding: 20px;
 }
+.main-page{
+    overflow: hidden;
+}
